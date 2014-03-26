@@ -27,8 +27,8 @@ $(document).ready(function() {
         }
     });
     $("#clearbutton").click(function() {
-        $("#imperialinput").val(");
-        $("#metricinput").val(");
+        $("#imperialinput").val('');
+        $("#metricinput").val('');
     });
 
 });
@@ -77,9 +77,9 @@ $(document).ready(function () {
 
  
     $("#clearbutton").click(function () {
-        $("#numone").val(”);
-        $("#numtwo").val(”);
-        $("#answer").val(”);
+        $("#numone").val('');
+        $("#numtwo").val('');
+        $("#answer").val('');
 
     });
 });
